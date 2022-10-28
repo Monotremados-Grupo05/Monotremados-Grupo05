@@ -1,0 +1,280 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+}
+
+body{
+    background-image:url(../Imagens/Fundo.png);
+    background-color:#FEF4DE;
+    font-family: "Poppins", sans-serif;
+    font-style: normal; 
+}
+
+.Pagina1{
+    height:100vh;   
+}
+#Title{
+    color:#663128;
+    left:14%;
+    top:10%;
+    position:absolute;
+    font-size:6em;
+    text-align:center;
+    width:45%;
+    height:20%;
+    line-height:118.5%;
+    font-weight:1000;
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    letter-spacing:0.235em;
+   
+}
+#Title2{
+    color:#663128;
+    left:15%;
+    top:25%;
+    position:absolute;
+    font-size:3.5em;
+    text-align:center;
+    width:45%;
+    height:20%;
+    font-style:normal;
+    letter-spacing:0.355em;
+    display:flex;
+    font-family: 'Poppins', sans-serif;
+}
+#subt{
+    position:absolute;
+    color:#663128;
+    top:45%;
+    left:15%;
+    font-size:20px;
+}
+#urso{
+    position:absolute;
+    top:15%;
+    left:65%;
+    width:30%;
+    height:60%;
+}
+#botao{
+    position:absolute;
+    left:15%;
+    top:70%;
+    width:15%;
+    height:76px;
+    border-radius:56px;
+    border-color:#F3CE5E;
+    background-color:#F3CE5E;
+    
+}
+#Textbotao{
+    color:#663128;
+    font-size:1.5em;
+    font-weight: bold;
+}
+#about{
+    position:absolute;
+    color:#663128;
+    top:72.4%;
+    left:35%;
+    font-size:22px;
+    font-family: 'Poppins';
+}
+#Borda1{
+    position:absolute;
+    width: 100%;
+    height: 10%;
+    background-color:#663128;
+    top:0%;
+    left:0%;
+    clip-path: polygon(0% 0%, 50% 100%, 50% 100%, 0% 100%);
+    transform:rotate(-180deg);
+}
+#Borda2{
+    position:absolute;
+    width: 100%;
+    height: 20%;
+    background-color:#663128;
+    top:80%;
+    left:0%;
+    clip-path: polygon(0% 0%, 90% 104%, 0% 100%, 0% 100%);
+}
+/*Inicio da Segunda Pagina*/
+.Pagina2{
+    background-color:#663128;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#botao2{
+    font-size: 1vw;
+    width: 15vw;
+    height: 6vw;
+    border-radius: 57px;
+    margin-top: 30px;
+    color: #7c4032;
+    border: 0;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    background-color: #f3ce5e;
+}
+#serv{
+    font-family: "Poppins", sans-serif;
+    font-size: 64px;
+    color: aliceblue;
+    text-align:center;
+    
+}
+/* Inicio Pagina 3*/
+.Pagina3{
+    display:flex;
+    height:100vh;
+    background-image:url(../Imagens/Fundo.png);
+    background-color:#FEF4DE;
+    align-items:center;
+    flex-direction:column;
+}
+
+#Tit3{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 96px;
+    color:#663128;
+    margin-top:5%;
+}
+
+#Retangulos{
+    display:flex;
+    gap:150px;
+    margin-top:5%;
+    
+}
+#Retangulos2{
+    margin-top:2%;
+    display:flex;
+    gap:150px;
+    
+}
+.Retangulo{
+    width: 512px;
+    height: 192px;
+    border: 1px solid #7C4032;
+    border-radius: 30px;
+    background-color:white;
+}
+.kat{
+    color:#7C4032;
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    width:325px;
+    padding:20px 40px;
+}
+
+.textmaluco{
+    font-family: "Poppins", sans-serif;
+    width:412px;
+    height:80px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding:0px 40px;
+}
+
+#Botao3{
+    font-size: 1vw;
+    width: 13vw;
+    height: 4vw;
+    border-radius: 57px;
+    margin-top: 30px;
+    color: #7c4032;
+    border: 0;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    background-color: #f3ce5e;
+}
+
+.Vector{
+   padding: 10px 42px;
+}
+/* PAGINA 4 FOOTER */
+.Pagina4{
+    display:flex;
+    height:70vh;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    
+}
+
+#tudo{
+    display:flex;
+    margin-top:4em;
+    gap:7em;
+}
+#esquerda{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+}
+.campos{
+    width: 374px;
+    height: 56px;
+    left: 558px;
+    top: 2817px;
+    background: #E6AF99;
+    border-radius: 61px;
+    align-items: left;
+}
+#textfooter{
+    font-weight: 900;
+    font-size: 74px;
+    line-height: 96px;
+    font-family: "Poppins", sans-serif;
+    color:#7C4032;
+    padding:15px;
+}
+#botao4{
+    font-size: 1vw;
+    width: 9vw;
+    height: 4vw;
+    border-radius: 57px;
+    margin-top: 30px;
+    color: #7c4032;
+    background-color:#FFFFFF;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    border-color:#7c4032;
+}
+
+#Gmail{
+    display:flex;
+    gap:2em;
+    margin-top:2em;
+}
+
+#Telefone{
+    display:flex;
+    gap:2em;
+    margin-top:2em;
+}
+
+#Gps{
+    display:flex;
+    gap:2em;
+    margin-top:2em;
+}
+#Borda3{
+    width: 100%;
+    height: 5%;
+    background-color:#663128;
+    margin-top:40px;
+}
